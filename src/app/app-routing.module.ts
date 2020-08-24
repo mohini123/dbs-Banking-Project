@@ -4,9 +4,10 @@ import { AccountHoldersComponent } from './account-holders/account-holders.compo
 import { TransactionDetailsComponent } from './transaction-details/transaction-details.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: 'account-holder', pathMatch: 'full'},
   {path:'account-holder', component: AccountHoldersComponent},
   {path:'transaction', component: TransactionDetailsComponent},
-
+  
 ];
 
 @NgModule({
