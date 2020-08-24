@@ -18,22 +18,22 @@ export class AccountHoldersComponent implements OnInit {
       amount:89890
     },
     {
-      name : "Shobhit Roy(Saving Account)",
+      name : "John Doe(Saving Account)",
       accountNumber : 66765567789,
       amount:8798789
     },
     {
-      name : "Shobhit Roy(Saving Account)",
+      name : "John Murphy(Saving Account)",
       accountNumber : 66765567789,
       amount:8798789
     },
     {
-      name : "Shobhit Roy(Saving Account)",
+      name : "Clark G(Saving Account)",
       accountNumber : 66765567789,
       amount:8798789
     },
     {
-      name : "Shobhit Roy(Saving Account)",
+      name : "Octivia H(Saving Account)",
       accountNumber : 66765567789,
       amount:8798789
     }
