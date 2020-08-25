@@ -9,16 +9,28 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a [routerLink]="['/account-holder']" routerLinkActive="router-link-active" class="nav-link">
-          Accounts
+          {{'Accounts' | translate }}
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item active">
         <a [routerLink]="['/transaction']" routerLinkActive="router-link-active" class="nav-link">
-          Transaction
+          {{'Transaction' | translate }}
           <span class="sr-only">(current)</span>
         </a>
       </li>
     </ul>
+    <div class="form-inline my-2 my-lg-0">
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Select Language
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <div *ngFor="let language of availableLanguages">
+            <a class="dropdown-item" (click)="switchLang(language)">{{ language }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>
