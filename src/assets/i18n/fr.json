@@ -2,6 +2,6 @@
     "Transaction":"Transaction",
     "Accounts": "comptes",
     "test": "French",
-    "AccountNumber":"Numéro de compte: ",
+    "accountNumber":"Numéro de compte: ",
     "totalBalance":"Solde total: "
 }

@@ -2,6 +2,6 @@
     "Transaction":"Transacción",
     "Accounts": "cuentas",
     "test": "Spanish",
-    "AccountNumber":"número de cuenta: ",
+    "accountNumber":"número de cuenta: ",
     "totalBalance":"Balance total: "
 }
